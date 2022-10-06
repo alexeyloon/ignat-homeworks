@@ -1,14 +1,14 @@
 import React from 'react'
 import {Navigate, Route, Routes} from "react-router-dom";
 import Error404 from "../h5/pages/Error404";
-import PreJunior from "../h5/pages/PreJunior";
-import Junior from "../h5/pages/Junior";
-import JuniorPlus from "../h5/pages/JuniorPlus";
+import PreJunior from "../h5-rrd-v6/pages/PreJunior";
+import Junior from "../h5-rrd-v6/pages/Junior";
+import JuniorPlus from "../h5-rrd-v6/pages/JuniorPlus";
 
 export const PATH = {
-    PRE_JUNIOR: '/*pre-junior',
-    JUNIOR: '/*junior',
-    JUNIOR_PLUS: '/*junior-plus',
+    PRE_JUNIOR: '/pre-junior',
+    JUNIOR: '/junior',
+    JUNIOR_PLUS: '/junior-plus',
 
 }
 
